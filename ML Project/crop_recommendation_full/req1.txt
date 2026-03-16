@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+joblib
+scikit-learn
+tensorflow>=2.11    # only if you will use the disease model here
+Pillow
+matplotlib
+seaborn
+opencv-python

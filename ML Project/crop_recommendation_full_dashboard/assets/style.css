@@ -1,0 +1,27 @@
+body {
+  background-color: #f8fff8;
+  color: #1f441e;
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1, h2, h3 {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.stButton>button {
+  background-color: #2e7d32;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+}
+
+.stButton>button:hover {
+  background-color: #388e3c;
+}
+
+.sidebar .sidebar-content {
+  background-color: #e9f5ea !important;
+}

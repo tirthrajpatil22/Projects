@@ -1,0 +1,31 @@
+Model: LogisticRegression
+Accuracy: 0.9455
+
+              precision    recall  f1-score   support
+
+       apple     1.0000    1.0000    1.0000        20
+      banana     1.0000    1.0000    1.0000        20
+   blackgram     0.6667    0.7000    0.6829        20
+    chickpea     1.0000    1.0000    1.0000        20
+     coconut     1.0000    1.0000    1.0000        20
+      coffee     1.0000    1.0000    1.0000        20
+      cotton     0.8000    1.0000    0.8889        20
+      grapes     1.0000    1.0000    1.0000        20
+        jute     0.8696    1.0000    0.9302        20
+ kidneybeans     1.0000    1.0000    1.0000        20
+      lentil     0.9444    0.8500    0.8947        20
+       maize     0.8333    0.7500    0.7895        20
+       mango     1.0000    1.0000    1.0000        20
+   mothbeans     0.7895    0.7500    0.7692        20
+    mungbean     1.0000    1.0000    1.0000        20
+   muskmelon     1.0000    1.0000    1.0000        20
+      orange     1.0000    1.0000    1.0000        20
+      papaya     1.0000    0.9500    0.9744        20
+  pigeonpeas     0.9500    0.9500    0.9500        20
+ pomegranate     1.0000    1.0000    1.0000        20
+        rice     1.0000    0.8500    0.9189        20
+  watermelon     1.0000    1.0000    1.0000        20
+
+    accuracy                         0.9455       440
+   macro avg     0.9479    0.9455    0.9454       440
+weighted avg     0.9479    0.9455    0.9454       440
