@@ -1,0 +1,48 @@
+{
+  "platformOutcomes": {
+    "P-001": { "classification": "MATCHED", "bankRef": "S-001" },
+    "P-002": { "classification": "MATCHED", "bankRef": "S-002" },
+    "P-003": { "classification": "TIMING_IN_TRANSIT", "bankRef": "S-010", "lagDays": 2 },
+    "P-004": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-004", "feeDiffMilli": 75 },
+    "P-005": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-005", "feeDiffMilli": 175 },
+    "P-006": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-006", "feeDiffMilli": 275 },
+    "P-007": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-007", "feeDiffMilli": 325 },
+    "P-008": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-008", "feeDiffMilli": 425 },
+    "P-009": { "classification": "MATCHED_ROUNDING_WITHIN_TOLERANCE", "bankRef": "S-009", "feeDiffMilli": 475 },
+    "P-010": { "classification": "MATCHED", "bankRef": "S-011" },
+    "P-011": { "classification": "DUPLICATE_PLATFORM_ENTRY", "bankRef": null },
+    "P-012": { "classification": "ORPHAN_REFUND", "bankRef": "S-012" }
+  },
+  "classificationCounts": {
+    "MATCHED": 3,
+    "MATCHED_ROUNDING_WITHIN_TOLERANCE": 6,
+    "TIMING_IN_TRANSIT": 1,
+    "DUPLICATE_PLATFORM_ENTRY": 1,
+    "ORPHAN_REFUND": 1,
+    "MISSING_SETTLEMENT": 0,
+    "ORPHAN_BANK_SETTLEMENT": 0
+  },
+  "bridge": {
+    "platformCapturedPaymentsGross": 346070,
+    "lessTimingInTransitGross": 120000,
+    "lessDuplicatePlatformGross": 50000,
+    "expectedOctoberBankPaymentsGross": 176070,
+    "bankOctoberPaymentsGross": 176070,
+    "paymentGrossDifference": 0,
+    "platformExpectedFees": 4401.75,
+    "bankFees": 4400,
+    "feeRoundingDifference": 1.75,
+    "platformExpectedNet": 171668.25,
+    "bankNet": 171670,
+    "netDifference": 1.75,
+    "platformRefunds": 30000,
+    "bankRefunds": 30000,
+    "refundsMatchedButOrphaned": 1
+  },
+  "controlTotals": {
+    "rowToleranceMilli": 500,
+    "controlToleranceMilli": 0,
+    "rowsWithinTolerance": 6,
+    "controlTotalStatus": "FAIL"
+  }
+}

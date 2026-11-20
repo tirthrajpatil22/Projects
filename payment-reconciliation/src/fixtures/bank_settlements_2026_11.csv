@@ -1,0 +1,2 @@
+settlement_id,txn_id,event_type,batch_id,value_date,gross_minor,fee_minor,net_minor
+S-010,T003,PAYMENT,B-NOV-01,2026-11-02,120000,3000,117000
